@@ -9,6 +9,7 @@
         <title>Hoy ya es mañana - Las Buenas Noches</title>
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
 
         <!-- link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css' -->
         <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
@@ -18,21 +19,15 @@
         <meta name="description" content="Sitio web del grupo de folk Las Buenas Noches - Presenta su nuevo disco Hoy ya es mañana">
 
         <meta property="fb:admins" content="100001961529336" />
-        <!--meta property="og:title" content="Las Buenas Noches"/ -->
+        <meta property="og:title" content="Las Buenas Noches"/>
         <meta property="og:type" content="band"/>
         <meta property="og:url" content="http://lasbuenasnoches.com"/>
         <meta property="og:image" content="http://lasbuenasnoches.com/images/portada640.jpg"/>
         <meta property="og:site_name" content="Las Buenas Noches"/>
         <meta property="og:description" content="Las Buenas Noches somos una banda de folclore apocalíptico transcontinental."/>
 
-        <!-- build:css styles/styles.css -->
-        <link rel="stylesheet" href="/styles/normalize.css">
-        <link rel="stylesheet" href="/stylesheets/main.css">
-        <!-- endbuild -->
-
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
+        <%= stylesheet_link_tag "all" %>
+        <%= javascript_include_tag "all" %>
     </head>
     <body>
       <%= yield %>
@@ -40,13 +35,6 @@
       <!--[if lt IE 7]>
           <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
       <![endif]-->
-
-      <!-- build:js scripts/main.js -->
-      <script src="bower_components/jquery/jquery.js"></script>
-      <script src="scripts/fastclick.js"></script>
-      <script src="bower_components/fitvids/jquery.fitvids.js"></script>
-      <script src="scripts/main.js"></script>
-      <!-- endbuild -->
 
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
