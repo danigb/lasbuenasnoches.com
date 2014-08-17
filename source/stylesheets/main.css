@@ -1,0 +1,109 @@
+body {
+    background-image: url('../images/fondo-web.jpg');
+    font-family: 'Sanchez', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0; padding: 0;
+}
+a { color: black;}
+
+p {
+	margin-top: 0px; font-size: 14px;
+	line-height: 1.6em;
+}
+p a { color: rgba(0,0,0,1); nocolor: #63b2cc; text-decoration: none; }
+p a:hover { text-decoration: underline;}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 2em 0 0.5em 0;
+  color: rgba(0,0,0,1);
+  text-shadow: 1px 1px 1px rgba(0,0,0,1);
+  font-weight: 1200px;
+}
+
+h2 { font-size: 42px; }
+h4 { font-weight: normal; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); font-size: 24px; margin: 0.5em 0 0 0;}
+h5 { font-weight: normal; text-shadow: none; font-size: 18px; margin: 0 0 0.2em 0; font-weight: normal;}
+
+.center { max-width: 680px; margin: 0 auto; padding: 0 10px;}
+.row { width:100%; overflow: hidden; }
+
+
+#nubes {
+
+/*  nobackground: url('../images/fondo-nubes.jpg') repeat-x left bottom;*/
+border-top: 1px solid rgba(0,0,0,0.35);
+border-bottom: 1px solid rgba(0,0,0,0.35);
+  background: url('../images/mirando-al-mar-grande.jpg') no-repeat center top fixed;
+  margin: 50px 0;
+  padding: 40px 0;
+  box-shadow: inset 0px 0px 277px 3px #AAA;
+}
+#nubes h2 { margin: 0; }
+
+#concierto-madrid-valencia {
+  margin-bottom: 140px;
+  max-height: 353px;
+  box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
+}
+
+#portada {
+    width: 51%;
+    float: right;
+}
+#portada img { width: 98%; box-shadow: 1px 1px 3px rgba(0,0,0,0.5); margin: 1%;}
+
+#lbn3-titulo { width: 55%; margin: 10% auto 5% auto;}
+#lbn3-titulo img { width: 100%; }
+
+#lbn3-portada {  }
+#lbn3-portada img { width: 100%; }
+
+@media(max-width: 640px) {
+	#lbn3-player { height: 120px; overflow: hidden;}
+  h2 { font-size: 32px; }
+  div.release .description span.download { font-size: 16px; }
+  .release { margin-bottom: 10px;}
+}
+
+
+#info { display: none;}
+
+.announcement img { width: 100%; }
+
+#videos {
+  background: url('../images/fondo-web.jpg') repeat center fixed;
+	border-top: 1px solid rgba(0,0,0,0.35);
+	border-bottom: 1px solid rgba(0,0,0,0.35);
+	margin-top: 50px;
+	padding: 20px 0 80px 0;
+  box-shadow: inset 0px 0px 277px 3px #333;
+}
+#videoclip { margin-top: 8%;}
+
+
+#releases { margin: 120px 0 60px 0;}
+.release .cover { float: left; width: 36%; margin: 0 3% 20px 0;}
+.release .cover.small { width: 18%; }
+.release .description { float: left; width: 60%; }
+.release .description h3 { display: none; }
+.release .description a { text-decoration: none;}
+.release .description a:hover { text-decoration: underline;}
+.release .description .download { display: block; font-size: 24px; text-transform: uppercase; }
+.release .description img { width: auto; float: left; margin: 6px 2px 0 0; box-shadow: none; }
+
+.release img { width: 100%; box-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+
+
+
+footer {
+	border-top: 1px solid rgba(0,0,0,0.35);
+	margin-top: 50px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 30px 0;
+	font-size: 12px;
+}
+#license { float: left; width: 47%; margin: 0 3% 0 0; }
+#about { float: left; width: 47%; margin: 0 0 0 3%; }
+footer p.contact { font-size: 14px; }
