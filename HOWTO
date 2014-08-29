@@ -1,0 +1,5 @@
+rvm --ruby-version use 2.0.0@middleman
+
+middleman server
+middleman build
+middleman deploy
