@@ -1,0 +1,13 @@
+{
+  "name": "lasbuenasnoches.com",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Las Buenas Noches",
+  "scripts": {
+    "build": "bundle exec middleman build --verbose",
+    "docker:bash": "docker-compose run --rm bash",
+    "docker:build": "docker-compose run --rm build"
+  },
+  "license": "Creative Commons 4.0",
+  "homepage": "https://lasbuenasnoches.com"
+}
